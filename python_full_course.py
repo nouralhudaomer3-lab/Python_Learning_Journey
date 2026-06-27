@@ -118,6 +118,18 @@ my_profile["major"]="medicine"
 my_profile["language"]="Python"
 del my_profile["gender"]
 print(my_profile)
+######################################################################################################################
+#function
+def say_hello(name):
+    print("hello "+name)
+
+say_hello("nour")
+##
+def show_profile(name,age,language,major,gender):
+    print(f"name {name} , age {age} ,gender {gender} ,language {language}")
+show_profile("nour",30,"python" ,"nursing" ,"female")
+
+
 
 
 
