@@ -97,6 +97,28 @@ while True:
         break
     else:
         print("try again ")
+        ##############################################################################################
+        favorite_colors=["red","blue","green","yellow","pink"]
+favorite_colors.append("black")
+favorite_colors[0]="purple"
+print(favorite_colors[0])
+print(favorite_colors[2])
+print(favorite_colors)
+print(len(favorite_colors))
+##############################################################################################################
+#Dictionary
+my_profile={
+    "name":"nour",
+    "age":21,
+    "gender":"female",
+    "language":"python"
+}
+print(my_profile["age"])
+my_profile["major"]="medicine"
+my_profile["language"]="Python"
+del my_profile["gender"]
+print(my_profile)
+
 
 
 
